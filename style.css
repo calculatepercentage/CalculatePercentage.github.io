@@ -75,6 +75,8 @@ button:active {
     max-width: 800px;
     margin: auto;
 }
+.content p{
+    font-size: 10px;
 
 /* Footer Section */
 footer {
