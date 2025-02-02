@@ -54,7 +54,7 @@ button {
 
 /* Hover Effect */
 button:hover {
-    background: #3B823E;
+    background: #354856;
     color: white;
     transform: scale(1.05);
 }
