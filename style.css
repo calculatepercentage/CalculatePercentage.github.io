@@ -45,7 +45,7 @@ button {
     font-weight: bold;
     margin-top: 10px;
     border: none;
-    cursor: pointer;
+    cursor: none;
     border-radius: 10px;
     transition: all 0.3s ease;
     width: 90%; /* Button ko 90% width diya gaya hai mobile view ke liye */
