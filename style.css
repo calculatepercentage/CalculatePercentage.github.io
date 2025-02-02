@@ -79,6 +79,9 @@ button:active {
 .content p{
     font-size: 12px;
 }
+.content h2{
+    font-size: 15px;
+}
 
 /* Footer Section */
 footer {
