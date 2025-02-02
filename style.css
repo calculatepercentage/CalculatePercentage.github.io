@@ -49,7 +49,7 @@ button {
     border-radius: 10px;
     transition: all 0.3s ease;
     width: 90%; /* Button ko 90% width diya gaya hai mobile view ke liye */
-    font-size: 18px; /* Button ka font size set kiya gaya */
+    font-size: 15px; /* Button ka font size set kiya gaya */
 }
 
 /* Hover Effect */
