@@ -71,7 +71,7 @@ button:active {
 .content {
     padding: 20px;
     text-align: left;
-    max-width: 800px;
+    max-width: 600px;
     margin: auto;
 }
 
@@ -106,7 +106,7 @@ footer {
     }
 
     input, button {
-        width: 45%; /* Desktop pe input aur button ka width 45% set kiya */
-        margin: 10px 2.5%; /* Left-right margin set kiya gaya */
+        width: 35%; /* Desktop pe input aur button ka width 45% set kiya */
+        margin: 5px 2.5%; /* Left-right margin set kiya gaya */
     }
 }
