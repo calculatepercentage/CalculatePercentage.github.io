@@ -18,7 +18,7 @@ header {
 .calculator {
     background: white;
     padding: 20px;
-    max-width: 600px; /* Max width for larger screens */
+    max-width: 400px; /* Default max-width for mobile devices */
     width: 90%; /* Default width for smaller screens */
     margin: 20px auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -27,8 +27,8 @@ header {
 
 /* Input Fields */
 input {
-    max-width: 600px;
-    width: 50%; /* Default width */
+    max-width: 100%; /* Allow inputs to take full width in mobile */
+    width: 90%; /* Adjust input width for mobile screens */
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ccc;
@@ -37,7 +37,7 @@ input {
 
 /* Button */
 button {
-    width: 95%;
+    width: 90%;
     padding: 10px;
     background: #007bff;
     color: white;
@@ -76,11 +76,12 @@ footer {
 /* Mobile View Adjustment */
 @media screen and (max-width: 768px) {
     .calculator {
-        width: 80%; /* Decrease the width for smaller screens */
+        width: 90%; /* Ensure calculator is 90% on mobile */
+        max-width: 100%; /* Allow full-width mobile view */
     }
     
     input {
-        width: 80%; /* Input fields also decrease in size for mobile */
+        width: 100%; /* Input fields will now take up full width on mobile */
     }
 }
 
@@ -88,6 +89,7 @@ footer {
 @media screen and (min-width: 769px) {
     .calculator {
         width: 50%; /* Increase the width for larger screens */
+        max-width: 600px; /* Max width for desktop */
     }
     
     input {
