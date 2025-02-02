@@ -84,7 +84,7 @@ footer {
 @media (max-width: 600px) {
     /* Mobile View mein input aur button vertically stack hote hain */
     .calculator {
-        width: 90%; /* Mobile view mein calculator container ka width 75% set kiya gaya */
+        width: 75%; /* Mobile view mein calculator container ka width 75% set kiya gaya */
         max-width: 100%;
     }
 
