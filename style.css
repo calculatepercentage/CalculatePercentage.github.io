@@ -70,19 +70,20 @@ button:active {
     font-weight: bold;
     margin-top: 10px;
 }
-.content {
+/* Article Styling */
+.article {
     padding: 20px;
     text-align: left;
     max-width: 800px;
     margin: auto;
 }
-.content p{
+.article p{
     font-size: 14px;
 }
-.content h2{
+.article h2{
     font-size: 24px;
 }
-.content h1{
+.article h1{
     font-size: 18px;
 }
 
