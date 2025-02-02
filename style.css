@@ -71,23 +71,6 @@ button:active {
     margin-top: 10px;
 }
 /* Article Styling */
-article {
-    padding: 20px;
-    text-align: left;
-    max-width: 800px;
-    margin: auto;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-article p{
-    font-size: 14px;
-}
-article h2{
-    font-size: 24px;
-}
-article h1{
-    font-size: 18px;
-}
 
 /* Footer Section */
 footer {
