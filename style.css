@@ -21,15 +21,14 @@ header {
     border-radius: 5px;
 }
 .percent-symbol {
-    position: absolute;
-    left: 10px;
-    top: 50%;
-    transform: translateY(-50%);
+    display: block; /* Ek alag line me shift karega */
+    text-align: left; /* Left side align karega */
+    width: 90%; /* Input ke barabar width */
     font-size: 18px;
     font-weight: bold;
     color: #333;
+    margin: 5px 0; /* Upar aur niche thoda gap */
 }
-
 input {
     width: 90%;
     padding: 10px;
