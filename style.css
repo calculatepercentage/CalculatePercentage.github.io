@@ -1,4 +1,3 @@
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -7,14 +6,12 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Header */
 header {
     background: #007bff;
     color: white;
     padding: 15px;
 }
 
-/* Calculator Styling */
 .calculator {
     background: white;
     padding: 20px;
@@ -24,7 +21,6 @@ header {
     border-radius: 5px;
 }
 
-/* Input Fields */
 input {
     width: 90%;
     padding: 10px;
@@ -33,24 +29,6 @@ input {
     border-radius: 5px;
 }
 
-/* Wrapper for Percentage Symbol */
-.input-group {
-    position: relative;
-    width: 90%;
-}
-
-/* Percentage Symbol Styling */
-.percent-symbol {
-    position: absolute;
-    left: 10px;
-    top: 100%; /* Moves symbol below the input field */
-    transform: translateY(10px); /* Space between symbol and input field */
-    font-size: 18px;
-    font-weight: bold;
-    color: #333;
-}
-
-/* Button Styling */
 button {
     width: 95%;
     padding: 10px;
@@ -65,14 +43,12 @@ button:hover {
     background: #0056b3;
 }
 
-/* Result Display */
 #result {
     font-size: 18px;
     font-weight: bold;
     margin-top: 10px;
 }
 
-/* Content Section */
 .content {
     padding: 20px;
     text-align: left;
@@ -80,7 +56,6 @@ button:hover {
     margin: auto;
 }
 
-/* Footer */
 footer {
     background: #222;
     color: white;
