@@ -33,7 +33,7 @@ input {
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 10px;
     box-sizing: border-box; /* Padding ko width mein include karne ke liye */
 }
 
@@ -46,7 +46,7 @@ button {
     margin-top: 10px;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 10px;
     transition: all 0.3s ease;
     width: 90%; /* Button ko 90% width diya gaya hai mobile view ke liye */
     font-size: 18px; /* Button ka font size set kiya gaya */
