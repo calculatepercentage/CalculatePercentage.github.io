@@ -71,19 +71,19 @@ button:active {
     margin-top: 10px;
 }
 /* Article Styling */
-.article {
+article {
     padding: 20px;
     text-align: left;
     max-width: 800px;
     margin: auto;
 }
-.article p{
+article p{
     font-size: 14px;
 }
-.article h2{
+article h2{
     font-size: 24px;
 }
-.article h1{
+article h1{
     font-size: 18px;
 }
 
