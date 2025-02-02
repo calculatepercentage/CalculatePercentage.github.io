@@ -33,15 +33,16 @@ input {
 button {
     width: 95%;
     padding: 10px;
-    background: #007bff;
-    color: white;
+    background: #FFC84F;
+    color: black;
+    font-weight: bold;
     border: none;
-    cursor: pointer;
+    cursor: none;
     border-radius: 5px;
 }
 
 button:hover {
-    background: #0056b3;
+    background: #3B823E;
 }
 
 #result {
