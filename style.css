@@ -76,8 +76,8 @@ article {
     text-align: left;
     max-width: 800px;
     margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 article p{
     font-size: 14px;
