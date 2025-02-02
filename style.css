@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background: #3B823E;
+    background: #354856;
     color: white;
     font-style: italic;
     padding: 15px;
@@ -78,7 +78,7 @@ button:active {
 
 /* Footer Section */
 footer {
-    background: #222;
+    background: #354856;
     color: white;
     padding: 10px;
     margin-top: 20px;
