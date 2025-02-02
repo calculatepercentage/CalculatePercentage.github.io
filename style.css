@@ -82,6 +82,9 @@ button:active {
 .content h2{
     font-size: 15px;
 }
+.content h1{
+    font-size: 14px;
+}
 
 /* Footer Section */
 footer {
