@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -6,31 +7,35 @@ body {
     background-color: #f4f4f4;
 }
 
+/* Header */
 header {
     background: #007bff;
     color: white;
     padding: 15px;
 }
 
+/* Calculator Section */
 .calculator {
     background: white;
     padding: 20px;
-    max-width: 600px;
-    width: 90%;
+    max-width: 600px; /* Max width for larger screens */
+    width: 90%; /* Default width for smaller screens */
     margin: 20px auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
 
+/* Input Fields */
 input {
     max-width: 600px;
-    width: 50%;
+    width: 50%; /* Default width */
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
+/* Button */
 button {
     width: 95%;
     padding: 10px;
@@ -45,12 +50,14 @@ button:hover {
     background: #0056b3;
 }
 
+/* Result */
 #result {
     font-size: 18px;
     font-weight: bold;
     margin-top: 10px;
 }
 
+/* Content Section */
 .content {
     padding: 20px;
     text-align: left;
@@ -58,9 +65,32 @@ button:hover {
     margin: auto;
 }
 
+/* Footer */
 footer {
     background: #222;
     color: white;
     padding: 10px;
     margin-top: 20px;
+}
+
+/* Mobile View Adjustment */
+@media screen and (max-width: 768px) {
+    .calculator {
+        width: 80%; /* Decrease the width for smaller screens */
+    }
+    
+    input {
+        width: 80%; /* Input fields also decrease in size for mobile */
+    }
+}
+
+/* Desktop View Adjustment */
+@media screen and (min-width: 769px) {
+    .calculator {
+        width: 50%; /* Increase the width for larger screens */
+    }
+    
+    input {
+        width: 60%; /* Input fields are wider on desktop */
+    }
 }
