@@ -13,56 +13,100 @@ header {
     padding: 15px;
 }
 
+/* Calculator Container */
 .calculator {
     background: white;
     padding: 20px;
-    max-width: 600px;
     margin: 20px auto;
+    max-width: 800px;
+    width: 80%;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
+    display: flex;
+    flex-direction: column; /* Default mobile view mein vertical stacking */
+    align-items: center; /* Center alignment */
 }
 
+/* Input Fields */
 input {
-    width: 90%;
+    width: 90%; /* Input fields ko 90% width diya gaya hai */
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
+    box-sizing: border-box; /* Padding ko width mein include karne ke liye */
 }
 
+/* Button Style */
 button {
-    width: 95%;
     padding: 10px;
     background: #FFC84F;
     color: black;
     font-weight: bold;
     border: none;
-    cursor: none;
+    cursor: pointer;
     border-radius: 5px;
-    transition: all 0.3sec ease;
+    transition: all 0.3s ease;
+    width: 90%; /* Button ko 90% width diya gaya hai mobile view ke liye */
+    font-size: 18px; /* Button ka font size set kiya gaya */
 }
 
+/* Hover Effect */
 button:hover {
     background: #3B823E;
     color: white;
+    transform: scale(1.05);
 }
 
+button:active {
+    transform: scale(0.95);
+}
+
+/* Result Section */
 #result {
     font-size: 18px;
     font-weight: bold;
     margin-top: 10px;
 }
-
 .content {
     padding: 20px;
     text-align: left;
-    max-width: 600px;
+    max-width: 800px;
     margin: auto;
 }
 
+/* Footer Section */
 footer {
     background: #222;
     color: white;
     padding: 10px;
     margin-top: 20px;
+}
+
+/* Mobile View Adjustments */
+@media (max-width: 600px) {
+    /* Mobile View mein input aur button vertically stack hote hain */
+    .calculator {
+        width: 75%; /* Mobile view mein calculator container ka width 75% set kiya gaya */
+        max-width: 100%;
+    }
+
+    input, button {
+        width: 90%; /* Input aur button ko 90% width diya gaya hai */
+        padding: 12px; /* Mobile view mein padding thoda increase kiya */
+    }
+}
+
+/* Desktop View Adjustments */
+@media (min-width: 601px) {
+    /* Desktop View mein flex direction ko row set kiya gaya hai */
+    .calculator {
+        flex-direction: row; /* Input aur button horizontal align honge */
+        justify-content: space-between; /* Space ke liye gap diya gaya */
+    }
+
+    input, button {
+        width: 45%; /* Desktop pe input aur button ka width 45% set kiya */
+        margin: 10px 2.5%; /* Left-right margin set kiya gaya */
+    }
 }
