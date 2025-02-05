@@ -19,7 +19,7 @@ header {
     font-size: 25px;
     position: absolute; /* Fixes the position on the screen */
     left: 10px; /* Centers horizontally */
-    top: 2%; /* Centers vertically */
+    top: 20px; /* Centers vertically */
     cursor: none;
 }
 
