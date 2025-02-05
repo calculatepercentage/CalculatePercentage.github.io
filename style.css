@@ -20,7 +20,6 @@ header {
     position: fixed; /* Fixes the position on the screen */
     left: 10px; /* Centers horizontally */
     top: 50%; /* Centers vertically */
-    transform: translateY(-50%); /* Perfectly centers the icon */
     cursor: none;
 }
 
