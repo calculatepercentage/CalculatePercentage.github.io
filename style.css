@@ -90,7 +90,7 @@ button {
     font-weight: bold;
     margin-top: 10px;
     border: none;
-    cursor: pointer;
+    cursor: none;
     border-radius: 10px;
     transition: all 0.3s ease;
     width: 90%;
