@@ -17,10 +17,12 @@ header {
 
 .menu-icon {
     font-size: 25px;
-    position: absolute;
-    left: 10px;
-    top: 20px;
+    position: fixed; /* Fixes the position on the screen */
+    left: 10px; /* Centers horizontally */
+    top: 50%; /* Centers vertically */
+    transform: translateY(-50%); /* Perfectly centers the icon */
     cursor: none;
+    z-index: 100; /* Keeps the icon on top */
 }
 
 #sidebar {
