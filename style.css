@@ -17,7 +17,7 @@ header {
 
 .menu-icon {
     font-size: 25px;
-    position: fixed; /* Fixes the position on the screen */
+    position: absolute; /* Fixes the position on the screen */
     left: 10px; /* Centers horizontally */
     top: 2%; /* Centers vertically */
     cursor: none;
