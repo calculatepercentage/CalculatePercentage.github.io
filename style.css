@@ -12,9 +12,55 @@ header {
     font-style: italic;
     font-size: 15px;
     padding: 15px;
+    position: relative;
 }
 
-/* Calculator Container */
+.menu-icon {
+    font-size: 25px;
+    position: absolute;
+    left: 10px;
+    top: 50px;
+    cursor: none;
+}
+
+#sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #354856;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+#sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+#sidebar a:hover {
+    background-color: #354856;
+    color: black;
+}
+
+#sidebar .closebtn {
+    font-size: 36px;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-weight: bold;
+}
+
 .calculator {
     background: white;
     padding: 20px;
@@ -24,21 +70,19 @@ header {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     display: flex;
-    flex-direction: column; /* Default mobile view mein vertical stacking */
-    align-items: center; /* Center alignment */
+    flex-direction: column;
+    align-items: center;
 }
 
-/* Input Fields */
 input {
-    width: 90%; /* Input fields ko 90% width diya gaya hai */
+    width: 90%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 10px;
-    box-sizing: border-box; /* Padding ko width mein include karne ke liye */
+    box-sizing: border-box;
 }
 
-/* Button Style */
 button {
     padding: 10px;
     background: #FFC84F;
@@ -46,14 +90,13 @@ button {
     font-weight: bold;
     margin-top: 10px;
     border: none;
-    cursor: none;
+    cursor: pointer;
     border-radius: 10px;
     transition: all 0.3s ease;
-    width: 90%; /* Button ko 90% width diya gaya hai mobile view ke liye */
-    font-size: 15px; /* Button ka font size set kiya gaya */
+    width: 90%;
+    font-size: 15px;
 }
 
-/* Hover Effect */
 button:hover {
     background: #354856;
     color: white;
@@ -64,15 +107,12 @@ button:active {
     transform: scale(0.95);
 }
 
-/* Result Section */
 #result {
     font-size: 18px;
     font-weight: bold;
     margin-top: 10px;
 }
-/* Article Styling */
 
-/* Footer Section */
 footer {
     background: #354856;
     color: white;
@@ -80,30 +120,25 @@ footer {
     margin-top: 20px;
 }
 
-/* Mobile View Adjustments */
 @media (max-width: 600px) {
-    /* Mobile View mein input aur button vertically stack hote hain */
     .calculator {
-        width: 75%; /* Mobile view mein calculator container ka width 75% set kiya gaya */
-        max-width: 100%;
+        width: 75%;
     }
 
     input, button {
-        width: 90%; /* Input aur button ko 90% width diya gaya hai */
-        padding: 12px; /* Mobile view mein padding thoda increase kiya */
+        width: 90%;
+        padding: 12px;
     }
 }
 
-/* Desktop View Adjustments */
 @media (min-width: 601px) {
-    /* Desktop View mein flex direction ko row set kiya gaya hai */
     .calculator {
-        flex-direction: row; /* Input aur button horizontal align honge */
-        justify-content: space-between; /* Space ke liye gap diya gaya */
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     input, button {
-        width: 35%; /* Desktop pe input aur button ka width 45% set kiya */
-        margin: 5px 2.5%; /* Left-right margin set kiya gaya */
+        width: 35%;
+        margin: 5px 2.5%;
     }
 }
