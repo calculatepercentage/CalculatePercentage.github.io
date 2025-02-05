@@ -22,7 +22,6 @@ header {
     top: 50%; /* Centers vertically */
     transform: translateY(-50%); /* Perfectly centers the icon */
     cursor: none;
-    z-index: 100; /* Keeps the icon on top */
 }
 
 #sidebar {
