@@ -1,35 +1,19 @@
 body {
-
     font-family: Arial, sans-serif;
-
     text-align: center;
-
     margin: 0;
-
     padding: 0;
-
     background-color: #ffffff;
-
 }
-
-
 
 header {
-
     background: #354856;
-
     color: white;
-
     font-style: italic;
-
     font-size: 12px;
-
     padding: 15px;
-
     position: relative;
-
 }
-
 /* Slider Menu Styles */
 .slider-menu {
     width: 100%;
@@ -69,258 +53,130 @@ header {
     cursor: none;
 }
 
-
 .menu-icon {
-
     font-size: 25px;
-
     position: absolute; /* Fixes the position on the screen */
-
     left: 10px; /* Centers horizontally */
-
     top: 25px; /* Centers vertically */
-
     cursor: none;
-
 }
-
-
 
 #sidebar {
-
     height: 100%;
-
     width: 0;
-
     position: fixed;
-
     z-index: 1;
-
     top: 0;
-
     left: 0;
-
     background-color: #354856;
-
     overflow-x: hidden;
-
     transition: 0.5s;
-
     padding-top: 60px;
-
 }
-
-
 
 #sidebar a {
-
     padding: 10px 15px;
-
     text-decoration: none;
-
     text-align: left;
-
     font-size: 18px;
-
     font-weight: bold;
-
     color: white;
-
     display: block;
-
     transition: 0.3s;
-
 }
-
-
 
 #sidebar a:hover {
-
     background-color: #354856;
-
     color: #FFC84F;
-
 }
-
-
 
 #sidebar .closebtn {
-
     font-size: 36px;
-
     color: white;
-
     position: absolute;
-
     top: 0;
-
     right: 25px;
-
     font-weight: bold;
-
     cursor: none;
-
 }
-
-
 
 .calculator {
-
     background: white;
-
     padding: 20px;
-
     margin: 20px auto;
-
     max-width: 800px;
-
     width: 90%;
-
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-
     border-radius: 10px;
-
     display: flex;
-
     flex-direction: column;
-
     align-items: center;
-
 }
-
-
 
 input {
-
     width: 90%;
-
     padding: 10px;
-
     margin: 10px 0;
-
     border: 1px solid #ccc;
-
     border-radius: 10px;
-
     box-sizing: border-box;
-
 }
-
-
 
 button {
-
     padding: 10px;
-
     background: #FFC84F;
-
     color: black;
-
     font-weight: bold;
-
     margin-top: 10px;
-
     border: none;
-
     cursor: none;
-
     border-radius: 10px;
-
     transition: all 0.3s ease;
-
     width: 90%;
-
     font-size: 15px;
-
 }
-
-
 
 button:hover {
-
     background: #354856;
-
     color: white;
-
     transform: scale(1.05);
-
 }
-
-
 
 button:active {
-
     transform: scale(0.95);
-
 }
-
-
 
 #result {
-
     font-size: 18px;
-
     font-weight: bold;
-
     margin-top: 10px;
-
 }
-
-
 
 footer {
-
     background: #354856;
-
     color: white;
-
     padding: 10px;
-
     margin-top: 20px;
-
 }
-
-
 
 @media (max-width: 600px) {
-
     .calculator {
-
         width: 75%;
-
     }
-
-
 
     input, button {
-
         width: 90%;
-
         padding: 12px;
-
     }
-
 }
 
-
-
 @media (min-width: 601px) {
-
     .calculator {
-
         flex-direction: row;
-
         justify-content: space-between;
-
     }
-
-
 
     input, button {
-
         width: 35%;
-
         margin: 5px 2.5%;
-
     }
-
