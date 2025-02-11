@@ -3,14 +3,21 @@
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+      http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
 <url>
-  <loc>https://calculatepercentage.github.io/</loc>
-  <lastmod>2025-02-02T12:10:33+00:00</lastmod>
+<loc>https://calculatepercentage.github.io/</loc>
+<lastmod>2025-02-11T08:29:35+00:00</lastmod>
+<priority>1.00</priority>
 </url>
-
-
+<url>
+<loc>https://calculatepercentage.github.io/gd2dd.html</loc>
+<lastmod>2025-02-11T08:29:35+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://calculatepercentage.github.io/AgeCalculator.html</loc>
+<lastmod>2025-02-11T08:29:35+00:00</lastmod>
+<priority>0.80</priority>
+</url>
 </urlset>
