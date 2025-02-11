@@ -77,28 +77,81 @@
     </div>
 <article style="padding: 20px; text-align: left; max-width: 800px; margin: auto; margin-top: 0px; margin-bottom: 0px;">
 <p><strong>Age Calculator Online Tool</strong> - Calculate your exact age in years, months, days, hours, and minutes with this simple and accurate age calculator. Enter your date of birth to know how much time you've lived so far. Perfect for quick and precise results. Try it now!</p>
-    </article>
+</article>
 
-<div class="age-calculator-container" style="background-color: white; border-radius: 8px; border: 1px solid rgb(221, 221, 221); box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px; margin: 20px auto; max-width: 600px; padding: 20px;">
-  <h2 style="color: #007bff; font-size: 24px; margin-bottom: 20px; text-align: center;">Age Calculator</h2>
-  
-  <label style="display: block; font-size: 16px; margin-bottom: 8px;">Enter your Date of Birth:</label>
-  <input id="dob" maxlength="10" oninput="formatDOB(this)" placeholder="DD/MM/YYYY" style="border-radius: 5px; border: 1px solid rgb(204, 204, 204); box-sizing: border-box; font-size: 14px; margin: 10px 0px; padding: 10px; width: 100%;" type="text" />
-  
-  <div style="margin-top: 10px; text-align: center;">
-    <input onclick="calculateAge()" style="background-color: #007bff; border-radius: 5px; border: none; color: white; cursor: pointer; font-size: 16px; padding: 10px 20px;" type="button" value="Calculate Age" />
-  </div>
-  
-  <div id="ageResult" style="color: #444444; font-size: 18px; line-height: 1.6; margin-top: 20px; text-align: center;"></div>
-</div>
 
 <style>
-  @media (max-width: 768px) {
+  /* Container */
+.age-calculator-container {
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid rgb(221, 221, 221);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px;
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Heading */
+.age-calculator-container h2 {
+    color: #007bff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Label */
+.age-calculator-container label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+/* Input Box */
+.age-calculator-container input[type="text"] {
+    border-radius: 5px;
+    border: 1px solid rgb(204, 204, 204);
+    box-sizing: border-box;
+    font-size: 14px;
+    margin: 10px 0px;
+    padding: 10px;
+    width: 100%;
+}
+
+/* Button */
+.button-container {
+    margin-top: 10px;
+}
+
+.button-container input {
+    background-color: #007bff;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.button-container input:hover {
+    background-color: #0056b3;
+}
+
+/* Result */
+#ageResult {
+    color: #444444;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
     .age-calculator-container {
-      width: 90% !important;
-      max-width: 90% !important;
+        width: 90%;
+        max-width: 90%;
     }
-  }
+}
 </style>
 
 <script>
